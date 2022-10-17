@@ -10,6 +10,7 @@ public class DemoApplication {
 //		SpringApplication.run(DemoApplication.class, args);
 		try {
 			System.out.println(1);
+			System.out.println(1);
 			throw new ArrayIndexOutOfBoundsException("xx");
 		} catch (NullPointerException e) {
 			e.printStackTrace();
