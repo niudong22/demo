@@ -12,6 +12,7 @@ public class DemoApplication {
 			System.out.println(1);
 			System.out.println(1);
 			System.out.println(1);
+			System.out.println(1);
 			throw new ArrayIndexOutOfBoundsException("xx");
 		} catch (NullPointerException e) {
 			e.printStackTrace();
