@@ -9,10 +9,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 //		SpringApplication.run(DemoApplication.class, args);
 		try {
-			System.out.println(1);
-			System.out.println(1);
-			System.out.println(1);
-			System.out.println(1);
+			System.out.println("热修1");
 			throw new ArrayIndexOutOfBoundsException("xx");
 		} catch (NullPointerException e) {
 			e.printStackTrace();
